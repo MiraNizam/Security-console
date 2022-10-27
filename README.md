@@ -1,7 +1,7 @@
 # Security console
 
-**Security console** records all visits to the repository. 
-It will allow you to find out information on passcards in the storage.
+**Security console** records all visits in the passcard, shows the visit duration and evaluates whether the visit is suspicious. 
+It will allow you to find out information about users in the storage.
 The project uses Django framework.
 
 ## Getting Started
@@ -10,7 +10,7 @@ Below you will find instructions on how to use **Security console**.
 
 ### Prerequisites
 
-Please be sure that **Python3** is already installed. Version >= 3.5.0main. 
+Please be sure that **Python3** is already installed. Version >= 3.5.0 
 
 ### Installing
 1. Clone the repository:
