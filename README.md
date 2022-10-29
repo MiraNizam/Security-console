@@ -1,8 +1,7 @@
 # Security console
 
-**Security console** records all visits to the repository. 
-It will allow you to find out information on passcards in the storage.
-The project uses Django framework.
+**Security console** is inner repository for bank employees. It records and show data about visits and visitors. 
+The script uses Django framework.
 
 ## Getting Started
 
@@ -21,17 +20,25 @@ git clone https://github.com/MiraNizam/django-orm-watching-storage.git
 ```
 pip install -r requirements.txt
 ```
-3. # About .env 
+3. You should create or receive from your boss the file `.env`  with the following information:
 
-4. How to run code:
+* SECURE_ENGINE=(for example: django.db.backends.postgresql_psycopg2)
+* SECURE_HOST=(used host)
+* SECURE_PORT=(used port)
+* SECURE_NAME=(name)
+* SECURE_USER=(user)
+* SECURE_PASSWORD=(user_password)
+* SECURE_SECRET_KEY=(secret_key to the data)
+
+5. How to run code:
 
 Input: 
 ```
-main.py
+python manage.py runserver 0.0.0.0:8000
 ```
 Go to the link: 
 
-[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+The server runs on [localhost 127.0.0.1:8000](http://127.0.0.1:8000/)
 
 You see the main page "Активные карты доступа". Also you have access to the page "Список пользователей в хранилище" and the page with visits for every passcard. 
     
