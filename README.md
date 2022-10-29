@@ -1,6 +1,7 @@
 # Security console
 
 **Security console** is inner repository for bank employees. It records and show data about visits and visitors. 
+It shows the visit duration and evaluates whether the visit is suspicious. 
 The script uses Django framework.
 
 ## Getting Started
@@ -9,7 +10,7 @@ Below you will find instructions on how to use **Security console**.
 
 ### Prerequisites
 
-Please be sure that **Python3** is already installed. Version >= 3.5.0main. 
+Please be sure that **Python3** is already installed. Version >= 3.5.0 
 
 ### Installing
 1. Clone the repository:
