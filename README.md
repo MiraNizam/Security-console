@@ -21,21 +21,18 @@ git clone https://github.com/MiraNizam/django-orm-watching-storage.git
 ```
 pip install -r requirements.txt
 ```
-3. You should create or receive from your boss the file `.env`  with the following information:
+3. To start: 
+    You should receive from your boss the file `.env`  with the following information:
 
-* SECURE_ENGINE=(for example: django.db.backends.postgresql_psycopg2)
-* SECURE_HOST=(used host)
-* SECURE_PORT=(used port)
-* SECURE_NAME=(name)
-* SECURE_USER=(user)
-* SECURE_PASSWORD=(user_password)
-* SECURE_SECRET_KEY=(secret_key to the data)
+* DB_SETTINGS= ( in the format: ```postgres://USER:PASSWORD@HOST:PORT/NAME```
+* DB_SECRET_KEY= ( you should have yourself key but there is Default)
+* DEBUG= (You can change in .env but Default is False)
 
 5. How to run code:
 
 Input: 
 ```
-python manage.py runserver 0.0.0.0:8000
+python manage.py runserver
 ```
 Go to the link: 
 
